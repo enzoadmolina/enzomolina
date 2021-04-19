@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CONTACTO</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <nav>
+    <a class="botonesNav" href="/index.html">Inicio</a>
+    <a class="botonesNav" href="/pages/404.html">404</a>
+  </nav>
+  <h1>CONTACTO</h1>
+  <!-- Incico de mi formulario -->
+  <form>
+    <!-- titulo de mi formulario -->
+    <h2>Elemento de un formulario </h2>
+    <p>
+      <label for="idName">Nombre</label><br>
+      <input type="text" name="name" id="idName" placeholder="ingrese el nombre" disabled><br>
+    </p>
+    <p>
+      <label for="idSurname">Apellido</label><br>
+      <input type="text" name="surname" id="idSurname" value="Smith">
+    </p>
+    <p>
+      <label for="idPassword">Password</label><br>
+      <input type="password" name="password" id="idPassword">
+    </p>
+    <p>
+      <label for="idAge">Edad</label><br>
+      <input type="number" name="age" id="idAge" min="0" max="120">
+    </p>
+    <p>
+      <input type="button" value="Enviar">
+    </p>
+    <label for="">Mascota favoritas</label><br>
+    <input type="checkbox" value="cat" name="pet">Gato <br>
+    <input type="checkbox" value="dog" name="pet">Perro <br>
+    <input type="checkbox" value="bird" name="pet">Pajaro <br>
+
+    <label for="">Genero</label><br>
+    <input type="radio" value="male" name="gender">Hombre<br>
+    <input type="radio" value="fame" name="gender">Mujer<br>
+    <input type="radio" value="other" name="gender">Otro<br>
+    <p>
+      <label for="">Calificacion</label>
+      <input type="range" min="0" max="100" name="calification" value="100">
+    </p>
+    <!-- input Seleccion color  -->
+    <p>
+      <label for="">Seleccion de color</label>
+      <input type="color">
+    </p>
+    <!-- input email -->
+    <p>
+      <label for="idEmail">Email</label><br>
+      <input type="email" name="hotmail" id="idEmail">
+    </p>
+    <p>
+      <label for="">Adjuntar</label><br>
+      <input type="file" name="" id="">
+    </p>
+    <p>
+      <label for="">Datos</label><br>
+      <input type="date" name="" id="">
+    </p>
+    <p>
+      <label for="">Tiempo</label><br>
+      <input type="time" name="" id="">
+    </p>
+    <!-- Lista desplegable  -->
+    <p>
+
+      <label for="carId">Seleccionar auto preferido</label>
+      <select name="Car" id="carId">
+        <option value="Peugueot">Peugueot</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Volkswagen">Volkswagen</option>
+      </select>
+    </p>
+
+    <P>
+      <textarea name="description" id="" cols="20" rows="2"></textarea>
+    </P>
+    <p>
+    <fieldset>
+      <legend>Ingreso de nombre de Mascota</legend>
+      <input type="text" list="petName">
+      <datalist id="petName">
+        <option value="Gala"></option>
+        <option value="Canela"></option>
+        <option value="Dunga"></option>
+      </datalist>
+    </fieldset>
+    </p>
+  </form>
+</body>
+
+</html>
